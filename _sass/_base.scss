@@ -8,11 +8,11 @@ body {
     @include serif-font;
 }
 
-ul  {
+#experience_list ul  {
     list-style: none;
 }
 
-ul li:before {
+#experience_list ul li:before {
   content: '✓';
 }
 
