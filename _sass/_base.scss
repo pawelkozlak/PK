@@ -8,6 +8,14 @@ body {
     @include serif-font;
 }
 
+ul  {
+    list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
+
 hr {
     border-color: $theme-primary;
     border-width: 3px;
