@@ -8,12 +8,12 @@ body {
     @include serif-font;
 }
 
-#experience_list ul  {
-    list-style: none;
+ul.checkmark {
+	list-style: none;
 }
 
-#experience_list ul li:before {
-  content: '✓';
+ul.checkmark li:before {
+	content: '✓';
 }
 
 hr {
