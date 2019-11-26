@@ -58,11 +58,17 @@ p {
 .bg-primary {
     background-color: $theme-primary;
 }
-/* inherited from .bg-primary class
+
+/* different background color for this section */
 section#html_css_js  {
-    background-color: $theme-primary;		
+    background-color: #f5c09a;		
 }
-*/
+
+/* different background color for this section */
+section#oop {
+	background-color: #f5c09a;
+}
+
 .bg-dark {
     background-color: $theme-dark;
     color: white;
